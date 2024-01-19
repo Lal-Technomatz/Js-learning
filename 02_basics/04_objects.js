@@ -45,11 +45,40 @@ const users = [
     }
 ]
 
-console.log(users[1].email);
-console.log(tinderUser);
+// console.log(users[1].email);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseinstructor: "Hitesh"
+}
+
+// course.courseinstructor   // if anyone want to print inside values.
+
+const {courseinstructor: instructor} = course // destructuring the object.
+
+// console.log(courseinstructor);
+console.log(instructor); // getting same value
+
+// Api returning data formate
+// Json format
+// {
+//     "name": "lal singh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+// Array format
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
